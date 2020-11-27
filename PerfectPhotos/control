@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectphotos13
+Name: PerfectPhotos
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.4
+Architecture: iphoneos-arm
+Description: Various enhancements to the Photos app
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

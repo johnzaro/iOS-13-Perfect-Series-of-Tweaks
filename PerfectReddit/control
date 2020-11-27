@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectreddit
+Name: PerfectReddit
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12)
+Version: 1.7
+Architecture: iphoneos-arm
+Description: Remove Promoted Posts, Remove All Suggestions And Edit Theme Colors
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

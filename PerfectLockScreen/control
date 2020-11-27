@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectlockscreen13
+Name: PerfectLockScreen
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.7
+Architecture: iphoneos-arm
+Description: Hide CC Grabber, Hide 'Swipe Up' Text, Auto Retry FaceID And More
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

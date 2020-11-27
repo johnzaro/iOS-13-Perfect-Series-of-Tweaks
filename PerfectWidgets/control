@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectwidgets13
+Name: PerfectWidgets
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.8
+Architecture: iphoneos-arm
+Description: Always Extended Widgets, Hide Clock Widget, Hide 'Weather Provided By' Text, Colorize Widgets
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

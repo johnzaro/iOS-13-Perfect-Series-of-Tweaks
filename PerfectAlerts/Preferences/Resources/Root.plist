@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>PALRootHeaderView</string>
+			<key>icon</key>
+			<string>PALHeader.png</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectalerts13</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>GENERAL</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectalerts13</string>
+			<key>key</key>
+			<string>disableNotificationsFromShortcuts</string>
+			<key>label</key>
+			<string>No Notifs From Shortcuts App</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectalerts13</string>
+			<key>key</key>
+			<string>hideDNDNotification</string>
+			<key>label</key>
+			<string>Hide DND Notification</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LOW BATTERY ALERT</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectalerts13</string>
+			<key>key</key>
+			<string>lowBatteryStyle</string>
+			<key>validTitles</key>
+			<array>
+      			<string>Default</string>
+      			<string>Banner Instead</string>
+      			<string>Disable</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+      			<string>0</string>
+      			<string>1</string>
+      			<string>2</string>
+			</array>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ALERT STYLE</string>
+			<key>footerText</key>
+			<string>THE 'ALERT STYLE' SETTINGS DON'T NEED A RESPRING TO TAKE EFFECT.
+			
+PRESS THE 'TEST ALERT' TO TEST THE SELECTED OPTIONS.</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectalerts13</string>
+			<key>key</key>
+			<string>tapOutsideToDismiss</string>
+			<key>label</key>
+			<string>Tap Outside To Dismiss</string>
+			<key>PostNotification</key>
+			<string>com.johnzaro.perfectalerts13/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectalerts13</string>
+			<key>key</key>
+			<string>verticalAlertButtons</string>
+			<key>label</key>
+			<string>Vertical Alert Buttons</string>
+			<key>PostNotification</key>
+			<string>com.johnzaro.perfectalerts13/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectalerts13</string>
+			<key>key</key>
+			<string>hideCancelButton</string>
+			<key>label</key>
+			<string>Hide Cancel Button</string>
+			<key>PostNotification</key>
+			<string>com.johnzaro.perfectalerts13/ReloadPrefs</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>showTestAlert</string>
+			<key>label</key>
+			<string>Test Alert</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT THIS TWEAK</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>url</key>
+   	 		<string>https://github.com/johnzaro/PerfectAlerts</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SPECIAL THANKS - ICON AND BANNER DESIGNER</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>𝐑 *¡!</string>
+            <key>user</key>
+            <string>rsxyo</string>
+        </dict>
+ 		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT ME</string>
+			<key>footerText</key>
+			<string>© 2020 John Zarogiannis (johnzaro)</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>John Zarogiannis</string>
+            <key>user</key>
+            <string>johnzaro</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Email Me</string>
+            <key>action</key>
+            <string>email</string>
+            <key>icon</key>
+            <string>email.png</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Check me on Reddit</string>
+            <key>action</key>
+            <string>reddit</string>
+            <key>icon</key>
+            <string>reddit.png</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Like my work? Buy me a coffee</string>
+			<key>icon</key>
+			<string>donate.png</string>
+			<key>url</key>
+   	 		<string>https://paypal.me/JohnZarogiannis</string>
+        </dict>
+	</array>
+</dict>
+</plist>

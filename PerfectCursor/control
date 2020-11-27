@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectcursor13
+Name: PerfectCursor
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Smooth Cursor Movement & Custom Cursor Color
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

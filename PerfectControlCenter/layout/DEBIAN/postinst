@@ -1,0 +1,3 @@
+#!/bin/sh
+/bin/chmod 4775 /usr/bin/mobileldrestart
+exit 0

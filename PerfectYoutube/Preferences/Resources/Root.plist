@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>PYTRootHeaderView</string>
+			<key>icon</key>
+			<string>PYTHeader.png</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>PLAYBACK SETTINGS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>backgroundPlayback</string>
+			<key>label</key>
+			<string>Enable Background Playback</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>disableInVideoAds</string>
+			<key>label</key>
+			<string>Disable In Video Ads</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>allowHDOnCellular</string>
+			<key>label</key>
+			<string>Allow HD On Cellular</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>showStatusBarOnLandscape</string>
+			<key>label</key>
+			<string>Show Status Bar On Landscape</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>noPopupsOnVideoEnd</string>
+			<key>label</key>
+			<string>No Pop Ups On Video End</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideDarkBackgroundOverlayInVideo</string>
+			<key>label</key>
+			<string>Hide Dark Background Overlay In Video</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>showProgressBarInVideo</string>
+			<key>label</key>
+			<string>Show Progress Bar In Video</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideComments</string>
+			<key>label</key>
+			<string>Hide Comments Section</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>HIDE BUTTONS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideDownloadButton</string>
+			<key>label</key>
+			<string>Hide Download Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideCreateVideoButton</string>
+			<key>label</key>
+			<string>Hide Create Video Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideCastButton</string>
+			<key>label</key>
+			<string>Hide Cast Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideVoiceSearchButton</string>
+			<key>label</key>
+			<string>Hide Voice Search Button</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>BOTTOM BAR TABS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideExploreTab</string>
+			<key>label</key>
+			<string>Hide Explore Tab</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideSubscriptionsTab</string>
+			<key>label</key>
+			<string>Hide Subscriptions Tab</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideInboxTab</string>
+			<key>label</key>
+			<string>Hide Inbox Tab</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideLibraryTab</string>
+			<key>label</key>
+			<string>Hide Library Tab</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>OTHER OPTIONS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>hideStories</string>
+			<key>label</key>
+			<string>Hide Stories</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectyoutubeprefs</string>
+			<key>key</key>
+			<string>disableHints</string>
+			<key>label</key>
+			<string>Disable Hints</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT THIS TWEAK</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>url</key>
+   	 		<string>https://github.com/johnzaro/PerfectYoutube</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SPECIAL THANKS - ICON AND BANNER DESIGNER</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>𝐑 *¡!</string>
+            <key>user</key>
+            <string>rsxyo</string>
+        </dict>
+ 		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT ME</string>
+			<key>footerText</key>
+			<string>© 2020 John Zarogiannis (johnzaro)</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>John Zarogiannis</string>
+            <key>user</key>
+            <string>johnzaro</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Email Me</string>
+            <key>action</key>
+            <string>email</string>
+            <key>icon</key>
+            <string>email.png</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Check me on Reddit</string>
+            <key>action</key>
+            <string>reddit</string>
+            <key>icon</key>
+            <string>reddit.png</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Like my work? Buy me a coffee</string>
+			<key>icon</key>
+			<string>donate.png</string>
+			<key>url</key>
+   	 		<string>https://paypal.me/JohnZarogiannis</string>
+        </dict>
+	</array>
+</dict>
+</plist>

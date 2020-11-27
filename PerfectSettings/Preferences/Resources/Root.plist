@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>PSTRootHeaderView</string>
+			<key>icon</key>
+			<string>PSTHeader.png</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ORGANIZE SETTINGS</string>
+			<key>footerText</key>
+			<string>ORGANIZES SETTINGS INTO 'TWEAKS', 'SYSTEM APPS' AND 'APP STORE APPS' CATEGORIES</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>organizeSettings</string>
+			<key>label</key>
+			<string>Organize Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>Tweaks</string>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>tweaksTitle</string>
+			<key>label</key>
+			<string>Tweaks Title</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>System Apps</string>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>systemAppsTitle</string>
+			<key>label</key>
+			<string>System Apps Title</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>App Store Apps</string>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>appStoreAppsTitle</string>
+			<key>label</key>
+			<string>App Store Apps Title</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ORGANIZED SETTINGS LOCATION</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>organizedSettingsPosition</string>
+			<key>validTitles</key>
+			<array>
+      			<string>Top</string>
+      			<string>Bottom</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+      			<string>0</string>
+      			<string>1</string>
+			</array>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SETTINGS APP TITLE</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>enableCustomTitle</string>
+			<key>label</key>
+			<string>Enable Custom Title</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>PerfectSettings</string>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>customTitle</string>
+			<key>label</key>
+			<string>Custom Title</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SEARCH BAR</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>roundSearchBar</string>
+			<key>label</key>
+			<string>Round Search Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>hideSearchBar</string>
+			<key>label</key>
+			<string>Hide Search Bar</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>CELLS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>disableEdgeToEdgeCells</string>
+			<key>label</key>
+			<string>Disable Edge To Edge Cells</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>hideArrow</string>
+			<key>label</key>
+			<string>Hide Arrow</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>hideCellSeparator</string>
+			<key>label</key>
+			<string>Hide Cell Separator</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ICONS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>circleIcons</string>
+			<key>label</key>
+			<string>Enable Circle Icons</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>hideIcons</string>
+			<key>label</key>
+			<string>Hide Icons</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>UPDATE BADGE</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>hideUpdateBadge</string>
+			<key>label</key>
+			<string>Hide Update Badge</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>EXTRA INFORMATION</string>
+			<key>footerText</key>
+			<string>'SHOW IP ADDRESS' OPTION SHOWS IP ADDRESS IN WIFI TABLE CELL.
+
+'SHOW USED CELLULAR DATA' OPTION SHOWS USED CELLULAR DATA IN CELLULAR TABLE CELL.
+
+'SHOW DISK SPACE INFO' OPTION SHOWS DISK SPACE INFORMATION IN GENERAL TABLE CELL.
+
+'SHOW BATTERY HEALTH' OPTION SHOWS BATTERY HEALTH (NOT CURRENT BATTERY LEVEL) IN BATTERY USAGE TABLE CELL.</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>showWifiData</string>
+			<key>label</key>
+			<string>Show IP Address</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>showCellularData</string>
+			<key>label</key>
+			<string>Show Used Cellular Data</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>showDiskSpace</string>
+			<key>label</key>
+			<string>Show Disk Space Info</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectsettingsprefs</string>
+			<key>key</key>
+			<string>showBatteryHealth</string>
+			<key>label</key>
+			<string>Show Battery Health</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT THIS TWEAK</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>url</key>
+   	 		<string>https://github.com/johnzaro/PerfectSettings</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SPECIAL THANKS - ICON AND BANNER DESIGNER</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>𝐑 *¡!</string>
+            <key>user</key>
+            <string>rsxyo</string>
+        </dict>
+ 		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT ME</string>
+			<key>footerText</key>
+			<string>© 2020 John Zarogiannis (johnzaro)</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>John Zarogiannis</string>
+            <key>user</key>
+            <string>johnzaro</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Email Me</string>
+            <key>action</key>
+            <string>email</string>
+            <key>icon</key>
+            <string>email.png</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Check me on Reddit</string>
+            <key>action</key>
+            <string>reddit</string>
+            <key>icon</key>
+            <string>reddit.png</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Like my work? Buy me a coffee</string>
+			<key>icon</key>
+			<string>donate.png</string>
+			<key>url</key>
+   	 		<string>https://paypal.me/JohnZarogiannis</string>
+        </dict>
+	</array>
+</dict>
+</plist>

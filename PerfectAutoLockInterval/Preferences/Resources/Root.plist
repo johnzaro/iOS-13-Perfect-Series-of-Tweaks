@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>CLIRootHeaderView</string>
+			<key>icon</key>
+			<string>CLIHeader.png</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The Following Settings Override Any System Setting You Have Set.
+
+The Priority Of The Checks Is: 
+1) 'Lock Screen Is Locked' Value
+2) 'Lock Screen Has Not Been Dismissed' Value
+3) 'Battery Is Charging' Value
+4) 'Low Power Mode Is Enabled' Value
+5) 'Default' Value
+
+On Some Occasions It Might Take A Bit More To Lock The Device Than The Selected Time.</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LOCK SCREEN - IF IT HAS NOT BEEN UNLOCKED</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>customLockscreenLockedAutoLockInterval</string>
+			<key>label</key>
+			<string>Custom Locked Duration</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>lockScreenLockedAutoLockInterval</string>
+			<key>validTitles</key>
+			<array>
+      			<string>5 Sec</string>
+      			<string>10 Sec</string>
+      			<string>20 Sec</string>
+      			<string>30 Sec</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+      			<string>0</string>
+      			<string>1</string>
+      			<string>2</string>
+      			<string>3</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LOCK SCREEN - IF IT HAS NOT BEEN DISMISSED</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>customLockscreenNotDismissedAutoLockInterval</string>
+			<key>label</key>
+			<string>Custom Not Dismissed Duration</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>lockScreenNotDismissedAutoLockInterval</string>
+			<key>validTitles</key>
+			<array>
+      			<string>5 Sec</string>
+      			<string>10 Sec</string>
+      			<string>20 Sec</string>
+      			<string>30 Sec</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+      			<string>0</string>
+      			<string>1</string>
+      			<string>2</string>
+      			<string>3</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>DEFAULT MODE AUTO LOCK INTERVAL</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>customDefaultAutoLockInterval</string>
+			<key>label</key>
+			<string>Custom Default Interval</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>defaultAutoLockInterval</string>
+			<key>validTitles</key>
+			<array>
+      			<string>30s</string>
+      			<string>1m</string>
+      			<string>2m</string>
+				<string>3m</string>
+				<string>4m</string>
+				<string>5m</string>
+				<string>Never</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+				<string>0</string>
+      			<string>1</string>
+      			<string>2</string>
+      			<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>CHARGING MODE AUTO LOCK INTERVAL</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>customChargingAutoLockInterval</string>
+			<key>label</key>
+			<string>Custom Charging Interval</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>chargingAutoLockInterval</string>
+			<key>validTitles</key>
+			<array>
+      			<string>30s</string>
+      			<string>1m</string>
+      			<string>2m</string>
+				<string>3m</string>
+				<string>4m</string>
+				<string>5m</string>
+				<string>Never</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+      			<string>0</string>
+      			<string>1</string>
+      			<string>2</string>
+      			<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LOW POWER MODE AUTO LOCK INTERVAL</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>customLowPowerAutoLockInterval</string>
+			<key>label</key>
+			<string>Custom Low Power Interval</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.customautolockintervalprefs</string>
+			<key>key</key>
+			<string>lowPowerAutoLockInterval</string>
+			<key>validTitles</key>
+			<array>
+      			<string>30s</string>
+      			<string>1m</string>
+      			<string>2m</string>
+				<string>3m</string>
+				<string>4m</string>
+				<string>5m</string>
+				<string>Never</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+      			<string>0</string>
+      			<string>1</string>
+      			<string>2</string>
+      			<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+			</array>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>WHEN RESETING, RESPRING WILL OCCUR</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>reset:</string>
+			<key>label</key>
+			<string>Reset All Settings</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT THIS TWEAK</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>url</key>
+   	 		<string>https://github.com/johnzaro/PerfectAutoLockInterval</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SPECIAL THANKS - ICON AND BANNER DESIGNER</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>𝐑 *¡!</string>
+            <key>user</key>
+            <string>rsxyo</string>
+        </dict>
+ 		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT ME</string>
+			<key>footerText</key>
+			<string>© 2020 John Zarogiannis (johnzaro)</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>John Zarogiannis</string>
+            <key>user</key>
+            <string>johnzaro</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Email Me</string>
+            <key>action</key>
+            <string>email</string>
+            <key>icon</key>
+            <string>email.png</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Check me on Reddit</string>
+            <key>action</key>
+            <string>reddit</string>
+            <key>icon</key>
+            <string>reddit.png</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Like my work? Buy me a coffee</string>
+			<key>icon</key>
+			<string>donate.png</string>
+			<key>url</key>
+   	 		<string>https://paypal.me/JohnZarogiannis</string>
+        </dict>
+	</array>
+</dict>
+</plist>

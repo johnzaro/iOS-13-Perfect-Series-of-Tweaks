@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectcontrolcenter
+Name: PerfectControlCenter
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.6
+Architecture: iphoneos-arm
+Description: Custom Connectivity And Music Module Size, Adds Power Control Module, Adds Low Power Mode Toggle, Make Control Center Modules Round, Show Percentage On Sliders, Move Control Center Modules To The Bottom, Turn Off Connectivity Toggles On Tap, Hide Status Bar
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

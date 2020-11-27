@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectsafari
+Name: PerfectSafari
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12)
+Version: 1.4
+Architecture: iphoneos-arm
+Description: Adds tabs and tabs overview to iphone, fullscreen scrolling, background playback, new tab button, count tabs icon, color customizations
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

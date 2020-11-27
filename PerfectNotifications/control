@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectnotifications13
+Name: PerfectNotifications
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.7
+Architecture: iphoneos-arm
+Description: Colorize Notifications, Show Exact Time Passed, Hide DND Notification, Easy Notification Swiping, One List Of Notifications and more!
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

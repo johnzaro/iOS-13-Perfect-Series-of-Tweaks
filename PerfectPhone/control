@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectphone
+Name: PerfectPhone
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.3
+Architecture: iphoneos-arm
+Description: No voicemail tab, longer call button, show time in recent calls
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

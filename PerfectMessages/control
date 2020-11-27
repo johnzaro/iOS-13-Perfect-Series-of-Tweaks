@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectmessages
+Name: PerfectMessages
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Returns to the message list when you close the application
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

@@ -1,0 +1,9 @@
+Package: com.johnzaro.networkspeed13
+Name: PerfectNetworkSpeedInfo
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12)
+Version: 3.0.1
+Architecture: iphoneos-arm
+Description: Shows upload & download speed in the status bar
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

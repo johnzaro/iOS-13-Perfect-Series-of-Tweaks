@@ -1,0 +1,9 @@
+Package: com.johnzaro.bluetoothbatteryinfo
+Name: PerfectBTBatteryInfo
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.8.1
+Architecture: iphoneos-arm
+Description: Adds BlueTooth Battery Info Module, Dynamic Status Bar Headphones Icon
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

@@ -1,0 +1,10 @@
+Package: com.johnzaro.dateundertime13
+Name: PerfectTime
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Conflicts: com.mpg13.undertime, com.neinzedd9.dateundertimex, com.huchundong.weekrighttimex, com.huchundong.perfecttimex, com.yourepo.kingmehu.perfecttimexs
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Adds second line in status bar for showing the date in notched devices
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

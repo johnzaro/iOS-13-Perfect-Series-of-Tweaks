@@ -1,0 +1,10 @@
+Package: com.johnzaro.perfectmusic13
+Name: PerfectMusic
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Conflicts: ch.mdaus.sylph, ch.mdaus.utils
+Version: 2.2
+Architecture: iphoneos-arm
+Description: Colorize Music App And Music Widget Based On Artwork + some extra features for the music app
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks
